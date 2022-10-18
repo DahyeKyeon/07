@@ -3,13 +3,14 @@
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
-int y;
 int main(int argc, char *argv[]) {
-	int flag=1;
-	while(flag != 0){
-		y=3;
-		flag=0;
+	int i;
+	
+	for(i=0; i<5; i++){
+		int temp=1;
+		printf("temp=%d\n", temp);
+		temp++;
 	}
-	y=4;
+	return 0;
 
 }
